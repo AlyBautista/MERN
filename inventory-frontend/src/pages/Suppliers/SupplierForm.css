@@ -1,0 +1,23 @@
+.supplier-form {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.error-alert {
+  color: #e74c3c;
+  margin-bottom: 15px;
+}

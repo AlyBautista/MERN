@@ -1,0 +1,38 @@
+.category-form {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.input-group .required {
+  color: red;
+  margin-left: 3px;
+}
+
+.error-alert {
+  background-color: #ffdddd;
+  padding: 10px;
+  border: 1px solid #ff5c5c;
+  color: #b30000;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
